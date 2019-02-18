@@ -170,7 +170,32 @@ footer {
     height: 50px;
     border-top: 10px solid #4aaaa5;
 }
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
+    .header {
+        width: 90%;
+    }
+    .container {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .container {
+        width: 90%;
+    }
+    .gallery-item {
+        width: 220px;
+    }
 
+}
 @media screen and (max-width: 640px) {
     
     header {
@@ -206,32 +231,14 @@ footer {
     #home-img {
         float: none;       
     }
+    .gallery-item   {
+        width: 300px;
+        height: auto;
+        text-align: center;
+        float: none;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    header {
-        width: 100%;
-    }
-    .header {
-        width: 100%;
-    }
-    .container {
-        width: 90%;
-    }
-    .gallery-item {
-        width: 33.33%;
-    }
-}
-@media screen and (max-width: 980px) {
-    header {
-        width: 100%;
-    }
-    .header {
-        width: 90%;
-    }
-    .container {
-        width: 90%;
-    }
-}
 
 
