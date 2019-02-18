@@ -171,64 +171,67 @@ footer {
     border-top: 10px solid #4aaaa5;
 }
 
-
-
 @media screen and (max-width: 640px) {
-
+    
+    header {
+        width: 100%;
+    }
     .header {
         width: 100%;
+        height: auto;
+
     }
     #nameLogo {
-        width: 100%;
         text-align: center;
+        float: none;
+        padding: 10px;
     }
-    .container {
-        width: 90%;
-        margin-top: 50px;
-        margin-bottom: 100px;
+    #nameLogo h1 {
+        margin: 0px;        
     }
     nav {
+        width: 100%;
         float: none;
-        margin: 0px;
         text-align: center;
         background: #ffffff;
-        border: 2px solid #dddddd;
+        margin: 0px;      
     }
     nav a {
-        padding: 0px
+        padding: 5px 10px 5px 10px;
+    }
+    .container {
+        width: 90%;
+        margin-bottom: 100px;
     }
     #home-img {
-        float: none;
-        width: 300px;
-        align-content: center;
-        
+        float: none;       
     }
-    .main-content {
-        margin: 30px 30px 0px 30px;
-    }
-    .gallery-img {
-        margin-left: auto;
-    }
-
-
 }
-@media screen and (min-width: 640px) {
+
+@media screen and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
     .header {
+        width: 100%;
+    }
+    .container {
         width: 90%;
     }
+    .gallery-item {
+        width: 33.33%;
+    }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
     .header {
         width: 90%;
     }
     .container {
         width: 90%;
-        margin: auto;
-        margin-top: 20px;
-    
     }
-
 }
-@media screen and (min-width: 980px) {
 
-}
+
