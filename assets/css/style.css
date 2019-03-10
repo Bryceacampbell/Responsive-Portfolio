@@ -52,7 +52,7 @@ a {
     text-decoration: none;
     color: #777777;
 }
-a:hover {
+nav a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
 }
@@ -83,10 +83,10 @@ hr {
     align-content: left;
 }
 .container {
-    float: left;
-    margin-left: 30px;
+    margin: auto;
     width: 960px;
     margin-top: 30px;
+    margin-bottom: 100px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
 }
@@ -132,10 +132,12 @@ button {
 .img-container {
     float: left;
     width: 45%;
-    padding: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 100%;
+    margin-left: 30px;
+    height: 250px;
+
+  }
+  .img-container img {
+      border: 3px solid #4aaaa5;
   }
   .clearfix::after {
     content: "";
@@ -147,7 +149,7 @@ button {
     color: #ffffff;
     text-align: center;
     position: relative;
-    bottom: 80px;
+    bottom: 65px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .spacer {
